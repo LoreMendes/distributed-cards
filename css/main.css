@@ -1,0 +1,58 @@
+html {
+  box-sizing: border-box;
+  font-family: Georgia;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: #f5f2f0;
+  border: 2px;
+}
+
+main h1 {
+  font-family: 'Denk one';
+  color: #623b0c;
+  border: auto;
+  margin: 1.5rem;
+}
+
+main h2 {
+  font-family: 'Denk one';
+  color: #623b0c;
+  background-color: #ede3db;
+
+}
+
+ol {
+  display: flex;
+  flex-flow: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  border: 2px solid #623b0c;
+}
+
+ol li {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  background-color: #623b0c;
+  color: #fff;
+
+}
+
+
+T
+Colours: #fff, #f5f2f0, #ede3db, #623b0c, #000
+Margins: 1.5rem
+Paddings: .5em .75em .6em, 1rem
+Gaps: 1rem
+Border-thicknesses: 2px
+Corner-radii: 8px
