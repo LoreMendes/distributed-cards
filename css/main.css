@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: Georgia;
+  font-family: Georgia, serif;
   line-height: 1.5;
 }
 
@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  margin: 1;
+  margin: 0;
   background-color: #f5f2f0;
   border: 2px;
 }
@@ -17,7 +17,6 @@ body {
 main h1 {
   font-family: 'Denk one';
   color: #623b0c;
-  border: auto;
   margin: 1.5rem;
   padding: 1rem;
 }
@@ -44,13 +43,16 @@ ol li {
   border: 2px solid #623b0c;
   background-color: #ede3db;
   padding: .5em .75em .6em;
-  border-style:
 }
 
 ol li a {
   background-color: #623b0c;
   color: #fff;
   padding: .5em .75em .6em;
+}
+
+p {
+  justify-content: center;
 }
 
 img {
