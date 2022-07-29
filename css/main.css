@@ -14,15 +14,15 @@ body {
   padding-right: 1rem;
 }
 
-main h1 {
-  font-family: "Denk one"; sans-serif;
+h1 {
+  font-family: "Denk one", sans-serif;
   color: #623b0c;
   padding-left: 1rem;
   padding-bottom: .1rem;
   margin-top: 1rem;
 }
 
-main h2 {
+h2 {
   font-family: "Denk one", sans-serif;
   color: #623b0c;
   margin-top: .2rem;
